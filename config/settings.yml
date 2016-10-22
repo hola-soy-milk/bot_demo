@@ -1,4 +1,4 @@
 page_access_token: <%= ENV["FB_PAGE_ACCESS_TOKEN"] %>
 verify_token: github
-app_secret: 1234
+app_secret: bc084d1f0d2f2bb41f05309d0b9b221f
 state_machine_reset_to: 1
