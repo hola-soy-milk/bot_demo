@@ -54,7 +54,7 @@ class BotLogic < BaseBotLogic
   def self.new_visa_question
     case get_message
     when '❌ No'
-      reply_quick_reply "Alright! What's on your mind?", ['🕐 When/where to go?', '❓ What do I need"', '⚠️ I was rejected!']
+      reply_quick_reply "Alright! What's on your mind?", ['🕐 When/where to go?', '❓ What do I need?', '⚠️ I was rejected!']
       state_go
     else
       reply_message "Yeah yeah working on it"
